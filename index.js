@@ -23,24 +23,15 @@ var facts = [
 var i = 0;
 
 function johnLennonFacts(facts) {
-  var arr2 = [] // Empty array
+  var foo!!! = [] // Empty array
   while (i < facts.length) {
-    arr2.push(facts[i] + "!!!");
+    foo!!!.push(facts[i] + "!!!");
     i++;
   }
-  if (arr2 = "He was the last Beatle to learn to drive!!!"){
-    arr2 = "foo!!!";
-    }else if (arr2 = "He was never a vegetarian!!!"){
-    arr2 = "foo!!!";
-    }else if  (arr2 = "He was a choir boy!!!"){
-      arr2 = "bar!!!";
-    }else if (arr2 = "He hated the sound of his own voice!!!"){
-      arr2 = "barr!!!";
-    } else {
-      arr2 = "barr!!!";
+  i
     }
 
-  return arr2
+  return foo!!!;
 }
 
 /* Create a function iLoveTheBeatles which accepts a number as a parameter.
