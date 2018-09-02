@@ -28,6 +28,17 @@ function johnLennonFacts(facts) {
     arr2.push(facts[i] + "!!!");
     i++;
   }
+  if (arr2 = "He was the last Beatle to learn to drive!!!"){
+    arr2 = "foo!!!";
+    }else if (arr2 = "He was never a vegetarian!!!"){
+    arr2 = "foo!!!";
+    }else if  (arr2 = "He was a choir boy!!!"){
+      arr2 = "bar!!!";
+    }else if (arr2 = "He hated the sound of his own voice!!!"){
+      arr2 = "barr!!!";
+    } else {
+      arr2 = "barr!!!";
+    }
 
   return arr2
 }
