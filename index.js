@@ -30,7 +30,7 @@ function johnLennonFacts(facts) {
 
     }
 
-  return arr2 = "foo!!!"
+  return arr2;
 }
 
 /* Create a function iLoveTheBeatles which accepts a number as a parameter.
