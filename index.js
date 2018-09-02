@@ -30,7 +30,7 @@ function johnLennonFacts(facts) {
 
   while (i < facts.length) {
     factsAppended.push(facts[i] + "!!!");
-    i++;
+    i++; // append facts with !!! and iterate by 1
   }
 
   return factsAppended;
@@ -44,11 +44,11 @@ The condition of the loop should check to see that the parameter number is less 
 The function should return the array with the strings "I love the Beatles!" */
 
 function iLoveTheBeatles(n){
-    var arr = [];
+    var arr = []; // Empty array
     do {
         arr.push("I love the Beatles!");
-        n++;
+        n++; // Push = add to the array and n++ = increase by 1.
     }
-    while (n < 15);
-    return arr;
+    while (n < 15); // loop while n > 15
+    return arr; // return the array
   }
