@@ -13,24 +13,27 @@ function theBeatlesPlay(musicians, instruments) {
 
 // johnLennonFacts
 
-var facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
+const facts = [
+  // "He was the last Beatle to learn to drive",
+  // "He was never a vegetarian",
+  // "He was a choir boy and boy scout",
+  // "He hated the sound of his own voice"
+  'foo',
+  'bar',
 ];
 
-var i = 0;
+
 
 function johnLennonFacts(facts) {
-  var arr2 = [] // Empty array
+  var factsAppended = [] // Empty array
+  var i = 0;
+  
   while (i < facts.length) {
-    arr2.push(facts[i] + "!!!");
+    factsAppended.push(facts[i] + "!!!");
     i++;
+  }
 
-    }
-
-  return arr2;
+  return factsAppended;
 }
 
 /* Create a function iLoveTheBeatles which accepts a number as a parameter.
