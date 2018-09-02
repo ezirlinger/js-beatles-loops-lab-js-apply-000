@@ -23,15 +23,14 @@ var facts = [
 var i = 0;
 
 function johnLennonFacts(facts) {
-  var foo!!! = [] // Empty array
+  var arr2 = [] // Empty array
   while (i < facts.length) {
-    foo!!!.push(facts[i] + "!!!");
+    arr2.push(facts[i] + "!!!");
     i++;
-  }
-  i
+
     }
 
-  return foo!!!;
+  return arr2 = "foo!!!"
 }
 
 /* Create a function iLoveTheBeatles which accepts a number as a parameter.
