@@ -27,7 +27,7 @@ const facts = [
 function johnLennonFacts(facts) {
   var factsAppended = [] // Empty array
   var i = 0;
-  
+
   while (i < facts.length) {
     factsAppended.push(facts[i] + "!!!");
     i++;
@@ -42,3 +42,11 @@ Then, implement a do-while loop inside the function that adds "I love the Beatle
 Then the loop should increment the number passed in as a parameter.
 The condition of the loop should check to see that the parameter number is less than 15.
 The function should return the array with the strings "I love the Beatles!" */
+
+function iLoveTheBeatles(n){
+    var arr = [];
+    do {
+        arr.push("I love the Beatles!");
+        n++;
+    }
+    while (n < 15);
