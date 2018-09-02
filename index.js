@@ -24,8 +24,7 @@ var text = "";
 var i = 0;
 
 function johnLennonFacts(facts) {
-  var arr = [];
-  while (i < facts.length) {i++;
-  arr.push(facts[i]) + "!!!";
+  while (i < facts.length) {
+    text += facts +"!!!"; i++;;
   }
 }
